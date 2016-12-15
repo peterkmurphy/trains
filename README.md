@@ -6,17 +6,23 @@ JavaScript and Go. In Python, run:
 
 	python trains.py [graph_description]
 
+(Without an argument, the program does unit testing)
+
 In JavaScript, run:
 
 	node trains.js [graph_description]
+
+(Without an argument, the program also does unit testing, with unit.js
+required.)
 
 In Go, run:
 
 	go run trains.go [graph_description]
 
+(I haven't got around to add unit testing.)
+
 In each case, you have sample files that contain the graph description
 (graph1.txt, graph2.txt, graph3.txt and graph4.txt).
-
 
 
 The problem

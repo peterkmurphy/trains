@@ -17,7 +17,7 @@ var fs = require ("fs");
 var test = require('unit.js');
 
 /**
-  * @desc sorts an object by its property values
+  * @desc sorts an object by its property values (in ascending order)
   * @param object $objectin - the object for property value sorting
   * @return Array of items, where item[0] is property name and item[1] is
   * property value.

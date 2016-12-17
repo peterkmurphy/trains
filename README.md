@@ -19,7 +19,9 @@ In Go, run:
 
 	go run trains.go [graph_description]
 
-(I haven't got around to add unit testing.)
+(Unit testing is implemented separately in the file
+ gocode/src/dirgraph/dirgraph_test.go. Without an argument, the file does
+ nothing.)
 
 In each case, you have sample files that contain the graph description
 (graph1.txt, graph2.txt, graph3.txt and graph4.txt).
